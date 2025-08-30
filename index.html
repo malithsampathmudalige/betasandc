@@ -7,7 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
-  <title>BETA SOLUTIONS</title>
+  <title>Document</title>
 </head>
 <body>
   <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -30,21 +30,12 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact us</a>
           </li>
+         
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -66,7 +57,7 @@
   <div class="container text-center" id="about">
     <h1 class="h1 mt-3">About</h1>
   <div class="row">
-    <div class="col-12 col-md-6 mb-3 mt-3  text-white ">
+    <div class="col-12  col-md-6 mb-3 mt-3  text-white ">
       <img src="img/logo1.png" class="img-fluid rounded-5" width="400px">
     </div>
     <div class="col-12 col-md-6 mb-3 mt-3">
@@ -76,22 +67,22 @@
 </div>
 
 
-<section class="bg-white">
+<section class="bg-white" id="services">
   
   <div class="container text-center">
     <h2 class="h1 justify-content-center m-3">What We Do</h2>
   <div class="row row-cols-2 justify-content-center text-center text-white">
-    <div class="col-12 col-md-3 bg-secondary m-1 p-3 rounded-3">
+    <div class="col-12 col-lg-3 col-md-3 bg-secondary m-1 p-3 rounded-3">
       <i class="fa-solid fa-paintbrush mb-2 fa-5x text-white"></i>
       <h4>Graphic Designing</h4>
       <p class="p">Graphic designing is the art of creating visual content that communicates ideas, builds brand identity, and engages audiences. It includes designing social media posts, business cards, infographics, logos, and other creative materials that blend creativity with strategy.</p>
     </div>
-    <div class="col-12 col-md-3 bg-secondary m-1 p-3 rounded-3">
+    <div class="col-12 col-lg-3 col-md-3 bg-secondary m-1 p-3 rounded-3">
       <i class="fa-solid fa-laptop-code mb-2 fa-5x text-white"></i>
       <h4>Web Applications</h4>
       <p class="p">Web app development focuses on building interactive, user-friendly, and responsive applications that run in the browser. It combines modern frameworks, clean UI/UX, and strong backend integration to deliver solutions tailored for businesses and users.</p>
     </div>
-    <div class="col-12 col-md-3 bg-secondary m-1 p-3  rounded-3">
+    <div class="col-12 col-lg-3 col-md-3 bg-secondary m-1 p-3  rounded-3">
       <i class="fa-solid fa-gears mb-2 fa-5x text-white"></i>
       <h4>IT Consultency</h4>
       <p class="p">IT consultancy provides expert guidance to businesses on using technology effectively. It helps organizations optimize IT infrastructure, improve security, adopt modern software solutions, and streamline digital transformation to achieve long-term growth.</p>
@@ -101,36 +92,88 @@
 </div>
 </section>
 
-<section class="bg-secondary">
-  <div class="container text-center">
-    <h1 class="h1 m-3 text-white">Projects</h1>
-  <div class="row row-cols-2">
-    <div class="col-12 col-md-3">
-      <img src="img/EWINGS AURUDU2.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
-    </div>
-    <div class="col-12 col-md-3">
-      <img src="img/GRAPHIC DESIGNER AD.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
-    </div>
-    <div class="col-12 col-md-3">
-      <img src="img/LWAS AD V2.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
-    </div>
-    <div class="col-12 col-md-3">
-      <img src="img/EWINGS AURUDU2.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
-    </div>
-    <div class="col-12 col-md-3">
-      <img src="img/GRAPHIC DESIGNER AD.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
-    </div>
-    <div class="col-12 col-md-3">
-      <img src="img/LWAS AD V2.png" class="img-fluid rounded-3 m-2" width="400px" alt="">
+  <section id="contact" class="py-5">
+  <div class="container justify-content-center align-items-center">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-7 mb-4">
+        <form>
+          <div class="form-group mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group mb-3">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+          <div class="form-group mb-4">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Send Message</button>
+        </form>
+      </div>
+      <div class="col-md-5 justify-content-center align-items-center">
+        <h5 class="mb-3">Get in Touch</h5>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-map-marker-alt me-2 mb-4 text-warning"></i>Galle,Sri Lanka</li>
+          <li><i class="fas fa-phone me-2 mb-4 text-warning"></i>+94 77 xxx xxxx</li>
+          <li><i class="fas fa-envelope me-2 mb-4 text-warning"></i>info@betasolutions.com</li>
+        </ul>
+        <h5 class="mt-4 mb-3">Follow Us</h5>
+        </div>
     </div>
   </div>
-</div>
+</section>
 </section>
 
 
 
-</form>
+
+
+
+
+<footer class="bg-light text-dark pt-5 pb-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">BETA SOLUTIONS</h5>
+        <img src="img/logo1.png" class="img-fluid rounded-2 w-50" srcset="">
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">What We Do</h5>
+        <p><a href="#" class="text-dark" style="text-decoration: none;">Graphic Designing</a></p>
+        <p><a href="#" class="text-dark" style="text-decoration: none;">Web Applications</a></p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+        <p><a href="#" class="text-dark" style="text-decoration: none;">About</a></p>
+        <p><a href="#" class="text-dark" style="text-decoration: none;">Help</a></p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+        <p><i class="fas fa-home mr-3"></i> Galle, Sri Lanka</p>
+        <p><i class="fas fa-envelope mr-3"></i> info@betasolutions.com</p>
+      </div>
+    </div>
+    
+    <hr class="mb-4">
+    
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-center text-md-left">© 2025 Copyright:
+          <a href="#" style="text-decoration: none;">
+            <strong class="text-warning">BETASOLUTIONS.COM</strong>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
 </body>
-
 </html>
